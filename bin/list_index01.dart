@@ -6,11 +6,9 @@
     Returns:
         list: return answer
 */
-bool func( List a ){
-    bool answer;
-    //answer = a.isEmpty;
-    return answer = a.isEmpty;
+List func( List a ){
+    return a;
 }
-void main() {
+void main(){
     print(func([]));
 }
