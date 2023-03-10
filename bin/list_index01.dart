@@ -6,4 +6,11 @@
     Returns:
         list: return answer
 */
-void main() {}
+bool func( List a ){
+    bool answer;
+    answer = a.isEmpty;
+    return answer;
+}
+void main() {
+    print(func([]));
+}
