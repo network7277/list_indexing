@@ -8,8 +8,8 @@
 */
 bool func( List a ){
     bool answer;
-    answer = a.isEmpty;
-    return answer;
+    //answer = a.isEmpty;
+    return answer = a.isEmpty;
 }
 void main() {
     print(func([]));
