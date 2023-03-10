@@ -6,9 +6,9 @@
     Returns:
         list: return answer
 */
-List func( List a ){
+List func( List b ){
     List answer;
-    return answer = a;
+    return answer = b;
 }
 void main(){
     print(func([]));
