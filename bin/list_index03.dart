@@ -7,4 +7,11 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func( List list1, List list2 ){
+    List lists;
+    lists = list1 + list2;
+    return lists;
+}
+void main() {
+    print(func(['"x"', 1], ['"y"', 2, '"z"', 3]));
+}
