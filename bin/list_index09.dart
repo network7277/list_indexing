@@ -6,4 +6,16 @@
     Returns:
         bool: return answer
 */
-void main() {}
+bool func( List list1 ){
+    int i = 0;
+    while ( i < list1.length ){
+        if ( list1[i] == list1[list1.last - i] ){
+            return true;
+        } 
+        i++;
+    }
+    return false;
+}
+void main() {
+    print(func([0, 0, 0, 1, 0]));
+}
